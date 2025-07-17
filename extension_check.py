@@ -53,7 +53,7 @@ async def get_browser_extension_info(session, allInstanceIds):
 
     return allExtensionInfo
 
-def remove_duplicate_extensions(allExtensionInfo)
+def remove_duplicate_extensions(allExtensionInfo):
     removeDups = set(map(tuple, allExtensionsInfo))
     finalList = list(map(list, removedDups))
     return finalList
